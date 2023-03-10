@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>CALCULATOR</h1>
+        <div class="display"><p id="displayP"></p></div>
+        <div class="btns">
+        <button id="Cbtn" onclick="cancel()">C</button>
+        <button id="0btn" class="number-btn" onclick="saveNum(this)">0</button>
+        <button id="*btn" onclick="saveSign(this)">*</button>
+        <button id="/btn" onclick="saveSign(this)" >/</button>
+        <button id="1btn" class="number-btn"onclick="saveNum(this)">1</button>
+        <button id="2btn" class="number-btn" onclick="saveNum(this)">2</button>
+        <button id="3btn" class="number-btn"onclick="saveNum(this)">3</button>
+        <button id="-btn" onclick="saveSign(this)">-</button>
+        <button id="4btn" class="number-btn"onclick="saveNum(this)">4</button>
+        <button id="5btn" class="number-btn"onclick="saveNum(this)">5</button>
+        <button id="6btn" class="number-btn"onclick="saveNum(this)">6</button>
+        <button id="+btn" onclick="saveSign(this)">+</button>
+        <button id="7btn" class="number-btn"onclick="saveNum(this)">7</button>
+        <button id="8btn" class="number-btn"onclick="saveNum(this)">8</button>
+        <button id="9btn" class="number-btn"onclick="saveNum(this)">9</button>
+        <button id="equalsbtn" onclick="equals()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
